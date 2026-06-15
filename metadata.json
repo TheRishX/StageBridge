@@ -1,0 +1,6 @@
+{
+  "name": "StageBridge",
+  "description": "Precision real-time communication bridge connecting Worship and Media teams. Facilitates rapid one-tap troubleshooting, visual notifications, and live audio mix monitoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

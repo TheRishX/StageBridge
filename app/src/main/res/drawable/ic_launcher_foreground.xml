@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer decorative glowing sound-bridge circle -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,22 A 32,32 0 1,1 53.9,22" />
+
+    <!-- Wave/Pulse accents radiating out -->
+    <path
+        android:strokeColor="#FF2D55"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 12,54 L 18,54 M 90,54 L 96,54" />
+
+    <!-- Fader Track 1 (Left Vocal) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 38,36 L 38,72" />
+        
+    <!-- Fader Handle 1 (Middle down) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 33,52 h 10 v 6 h -10 z" />
+
+    <!-- Fader Track 2 (Center Master Bridge - elevated) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,32 L 54,76" />
+        
+    <!-- Fader Handle 2 (High Level) -->
+    <path
+        android:fillColor="#FF2D55"
+        android:pathData="M 49,40 h 10 v 6 h -10 z" />
+
+    <!-- Fader Track 3 (Right Instruments) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 70,36 L 70,72" />
+        
+    <!-- Fader Handle 3 (Middle up) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 65,60 h 10 v 6 h -10 z" />
+</vector>
